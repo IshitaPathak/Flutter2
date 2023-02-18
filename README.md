@@ -1,7 +1,10 @@
 # bhu_app
 
-A new Flutter project.
+## This is how user data is stored when submit button is pressed.
 
+<img width="948" alt="Screenshot_20230218_141618" src="https://user-images.githubusercontent.com/75848598/219851649-576c69cb-c013-44f9-b591-e620d73ab50f.png">
+
+A new Flutter project.
 ## Getting Started
 
 This project is a starting point for a Flutter application.
