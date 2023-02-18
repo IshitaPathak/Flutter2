@@ -1,5 +1,7 @@
 # bhu_app
 
+![bhu_app](https://user-images.githubusercontent.com/75848598/219852291-3ff29ac6-5a6f-48d7-b13b-97ad65a4db6d.png)
+
 ## This is how user data is stored when submit button is pressed.
 
 <img width="948" alt="Screenshot_20230218_141618" src="https://user-images.githubusercontent.com/75848598/219851649-576c69cb-c013-44f9-b591-e620d73ab50f.png">
