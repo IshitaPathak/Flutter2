@@ -10,6 +10,7 @@ class ContactUs extends StatelessWidget {
           title: Text('BHU-APP'),
         ),
         body: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Padding(
               padding: EdgeInsets.symmetric(horizontal: 8, vertical: 16),
@@ -38,6 +39,11 @@ class ContactUs extends StatelessWidget {
                 ),
               ),
             ),
+            Padding(
+              padding: EdgeInsets.symmetric(horizontal: 8, vertical: 16),
+              child:
+                  ElevatedButton(onPressed: () {}, child: const Text('SUBMIT')),
+            )
           ],
         ));
   }
