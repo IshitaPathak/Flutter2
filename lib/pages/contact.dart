@@ -69,6 +69,9 @@ class ContactUs extends StatelessWidget {
           Padding(
             padding: EdgeInsets.symmetric(horizontal: 8, vertical: 16),
             child: TextField(
+              // expands: true,
+              maxLines: null,
+              minLines: 1,
               controller: message,
               decoration: InputDecoration(
                 border: OutlineInputBorder(),
