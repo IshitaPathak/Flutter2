@@ -77,6 +77,17 @@ class ContactUs extends StatelessWidget {
               child: const Text('SUBMIT'),
             ),
           ),
+          Padding(
+            padding: EdgeInsets.symmetric(horizontal: 8, vertical: 16),
+            child: ElevatedButton(
+              onPressed: () {
+                name.clear();
+                email.clear();
+                message.clear();
+              },
+              child: Text('RESET'),
+            ),
+          )
         ],
       ),
     );
