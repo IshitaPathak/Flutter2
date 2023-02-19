@@ -3,6 +3,7 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:bhu_app/pages/home.dart';
 import 'package:bhu_app/pages/about.dart';
 import 'package:bhu_app/pages/contact.dart';
+import 'package:bhu_app/pages/data.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -24,6 +25,7 @@ class App extends StatelessWidget {
         '/home': (context) => Home(),
         '/about': (context) => AboutUs(),
         '/contact': (context) => ContactUs(),
+        '/data': (context) => MyData(),
       },
     );
   }

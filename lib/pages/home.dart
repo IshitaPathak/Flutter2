@@ -52,6 +52,13 @@ class Home extends StatelessWidget {
               onTap: () {
                 Navigator.pushNamed(context, '/contact');
               },
+            ),
+            ListTile(
+              leading: Icon(Icons.data_object),
+              title: Text('FireStore data'),
+              onTap: () {
+                Navigator.pushNamed(context, '/data');
+              },
             )
           ],
         ),
