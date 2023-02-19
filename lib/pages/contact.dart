@@ -18,6 +18,16 @@ class ContactUs extends StatelessWidget {
         children: [
           Padding(
             padding: EdgeInsets.symmetric(horizontal: 8, vertical: 16),
+            child: Text(
+              'Name:',
+              style: TextStyle(
+                  fontWeight: FontWeight.bold,
+                  fontSize: 14,
+                  color: Colors.blue),
+            ),
+          ),
+          Padding(
+            padding: EdgeInsets.symmetric(horizontal: 8, vertical: 16),
             child: TextField(
               controller: name,
               decoration: InputDecoration(
@@ -28,12 +38,32 @@ class ContactUs extends StatelessWidget {
           ),
           Padding(
             padding: EdgeInsets.symmetric(horizontal: 8, vertical: 16),
+            child: Text(
+              'Email:',
+              style: TextStyle(
+                  fontWeight: FontWeight.bold,
+                  fontSize: 14,
+                  color: Colors.blue),
+            ),
+          ),
+          Padding(
+            padding: EdgeInsets.symmetric(horizontal: 8, vertical: 16),
             child: TextField(
               controller: email,
               decoration: InputDecoration(
                 border: OutlineInputBorder(),
                 hintText: 'Enter your email',
               ),
+            ),
+          ),
+          Padding(
+            padding: EdgeInsets.symmetric(horizontal: 8, vertical: 16),
+            child: Text(
+              'Message:',
+              style: TextStyle(
+                  fontWeight: FontWeight.bold,
+                  fontSize: 14,
+                  color: Colors.blue),
             ),
           ),
           Padding(
