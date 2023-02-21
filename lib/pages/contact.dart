@@ -27,6 +27,7 @@ class ContactUs extends StatelessWidget {
                   'Name:',
                   style: TextStyle(
                       fontWeight: FontWeight.bold,
+                      wordSpacing: 2,
                       fontSize: 14,
                       color: Colors.blue),
                 ),
